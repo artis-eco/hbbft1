@@ -1,0 +1,47 @@
+[account]
+
+[ipc]
+disable = true
+
+[ipfs]
+enable = false
+
+[mining]
+extra_data = "Parity"
+force_sealing = true
+hbbft_public_key_set = "{\"commit\":{\"coeff\":[[128,76,146,233,125,254,52,2,171,123,119,189,169,198,105,74,220,181,23,4,172,247,56,150,135,254,66,66,158,175,59,79,160,64,140,47,189,171,147,44,242,169,229,93,155,171,152,242],[141,241,56,220,183,81,165,17,225,50,85,141,18,214,16,28,162,166,211,27,122,84,180,94,45,181,96,108,99,185,86,13,114,46,145,248,188,190,188,73,82,143,154,229,107,163,135,56],[166,22,41,179,229,119,119,39,236,140,46,230,205,51,22,135,181,254,104,106,138,217,204,40,163,188,88,110,213,2,151,87,16,211,167,105,182,226,239,247,114,59,122,227,161,154,240,202]]}}"
+min_gas_price = 1000000000
+reseal_min_period = 0
+reseal_on_txs = "none"
+
+[misc]
+log_file = "parity.log"
+logging = ""
+
+[network]
+interface = "all"
+nat = "none"
+port = 30300
+reserved_peers = "reserved-peers"
+
+[parity]
+base_path = "data"
+chain = "spec.json"
+
+[rpc]
+apis = ["web3", "eth", "pubsub", "net", "parity", "parity_set", "parity_pubsub", "personal", "traces", "rpc", "shh", "shh_pubsub"]
+cors = ["all"]
+hosts = ["all"]
+interface = "all"
+port = 8540
+
+[secretstore]
+disable = true
+
+[ui]
+disable = true
+
+[websockets]
+interface = "all"
+origins = ["all"]
+port = 9540
