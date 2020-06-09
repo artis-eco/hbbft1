@@ -9,8 +9,8 @@ Ubuntu 16.04 or above
 
 * Clone this repo
 * Download the latest Honey Badger BFT enabled OpenEthereum release 
-  *  The Asset 'parity.zip` at [https://github.com/artis-eco/openethereum/releases/tag/v2.7.0-hbbft](https://github.com/artis-eco/openethereum/releases/tag/v2.7.0-hbbft) contains the binary compatible with this repository
-* Unpack and copy the `parity` executable to your local `hbbft1` clone.
-* Start the hbbft1 node using `./parity --config node.toml`
+  *  The Asset 'openethereum.zip` at [https://github.com/artis-eco/openethereum/releases/tag/v3.0.0-hbbft](https://github.com/artis-eco/openethereum/releases/tag/v3.0.0-hbbft) contains the binary compatible with this repository
+* Unpack and copy the `openethereum` executable to your local `hbbft1` clone.
+* Start the hbbft1 node using `./openethereum --config node.toml`
 
-> Feel free to compile the binary yourself from code at the `v2.7.0-hbbft` [label](https://github.com/artis-eco/openethereum/tree/v2.7.0-hbbft)
+> Feel free to compile the binary yourself from code at the `v3.0.0-hbbft` [label](https://github.com/artis-eco/openethereum/tree/v3.0.0-hbbft)
